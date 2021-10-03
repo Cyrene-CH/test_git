@@ -1,0 +1,48 @@
+
+.rec {
+    position: absolute;
+    width: 250px;
+    margin-left: 4.75%;
+    float:left;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 142.5px;
+}
+
+.rec2 {
+    position: absolute;
+    width: 249px;
+    margin-left: 29.1%;
+    float:left;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 144.5px;
+}
+
+.rec3 {
+    position: absolute;
+    width: 250px;
+    margin-left: 53.28%;
+    float:left;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 144px;
+}
+.box div{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: 'Paytone One', sans-serif;
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.box:hover div{
+    width: 150px;
+    padding: 0px 1px;
+    visibility: visible;
+    opacity: 0.7;        
+}
